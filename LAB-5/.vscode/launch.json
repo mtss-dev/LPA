@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/matheus/Documentos/LPA/LAB-4",
-      "program": "/home/matheus/Documentos/LPA/LAB-4/build/Debug/outDebug",
+      "cwd": "/home/matheus/Documentos/LPA/LAB-5 ",
+      "program": "/home/matheus/Documentos/LPA/LAB-5/build/Debug/outDebug -lcrypt",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

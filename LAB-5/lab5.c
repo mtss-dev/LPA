@@ -3,6 +3,9 @@
 #include <string.h>
 #include <crypt.h>
 
+//Aluno: Matheus Silva dos Santos
+//Matrícula: 22052573
+
 //Config padrão:
 // int tamanhoMaximo = 3;
 // char caracteres[] = "abc";
@@ -21,7 +24,7 @@
 // char *senhaCriptografada = "$6$rMAk28dVkWjpYoA3$SkWbPYqEB8O/10ryvvjm1qN9BOrkeBOXp"
 //                            "JScVSGDL5L88OIs0UCBuP.pnd9TQ6SBx60dLKwR9WAzfnLtvjGvj.";
 
-//Senha criptografada questão 3 (Senha encontrada = )
+//Senha criptografada questão 3 (Senha encontrada = 31337)
 int tamanhoMaximo = 5;
 char caracteres[] = "0123456789";
 char *senhaCriptografada = "$6$l2xE4w9twgjtnZBz$9YK9krslZFraLffy5VNiahAfT.xZNvB54"
@@ -70,8 +73,6 @@ void GenerateAllPasswords(char *pwd, int pos, int siz)
         }else{
             printf("%s --> não\n",pwd); 
         }
-
-        
     }
 }
 

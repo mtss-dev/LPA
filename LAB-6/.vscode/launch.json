@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug My Program",
+      "type": "cppdbg", // Substitua pelo tipo de depurador apropriado (por exemplo, "node", "cppdbg", etc.)
+      "request": "launch",
+      "program": "${workspaceFolder}/lab6", // Caminho para o seu programa executável
+      "args": [
+        "${workspaceFolder}/lab6-teste.zip" // Argumento de arquivo.zip
+      ],
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "\\bListening on\\b",
+        "uriFormat": "http://localhost:${port}"
+      },
+      "sourceFileMap": {},
+    }
+  ]
+}

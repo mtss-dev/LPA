@@ -12,3 +12,5 @@ Laboratórios realizados:
  * Laboratório 7: Trabalhando com Arquivos PNG
  * Laboratório 8: Decodificando Arquivos MPEG
  * Laboratório 9: Dividindo Vídeos MPEG em Diversos Arquivos
+ * Laboratório 10: Decodificando o Ethernet + TCP/IP (e HTTP)
+ * Laboratório 11: Geometria Computacional com OpenGL
